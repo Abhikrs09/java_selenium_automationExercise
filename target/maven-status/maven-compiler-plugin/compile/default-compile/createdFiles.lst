@@ -1,0 +1,9 @@
+Pages\SignUp_page.class
+Pages\checkout_page.class
+Pages\SignUp_login_Page.class
+Pages\homepage_page.class
+Pages\Delete_account_page.class
+Utilities\ExtentManager.class
+BasePackage\BasePage.class
+Utilities\ReadingPropertiesFile.class
+Utilities\Screenshot.class

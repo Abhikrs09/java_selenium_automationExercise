@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: Testcases.signupPageTestCase
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.459 sec <<< FAILURE!
+testcase(Testcases.signupPageTestCase)  Time elapsed: 0.552 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: Element <a href="/product_details/2"> is not clickable at point (921,711) because another element <iframe id="aswift_5" name="aswift_5" src="https://googleads.g.doubleclick.net/pagead/html/r20230920/r20110914/zrt_lookup.html?fsb=1#RS-1-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=6&uci=a!6&btvi=2&xpc=vU62HcttBq&p=https%3A//automationexercise.com"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1bb3239f-bf0a-4c01-ad0c-9636fee063dd, clickElement {id=908645c6-47be-46a4-bb13-eccc51193758}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0.1, moz:accessibilityChecks: false, moz:buildID: 20230912013654, moz:debuggerAddress: 127.0.0.1:21918, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20708, moz:profile: C:\Users\Kumar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21918/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (1bb3239f-bf0a-4c01-ad0c-9636fee063dd)] -> xpath: //a[@href='/product_details/2']]
+Session ID: 1bb3239f-bf0a-4c01-ad0c-9636fee063dd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Pages.homepage_page.click_view_product_btn(homepage_page.java:51)
+	at Testcases.signupPageTestCase.testcase(signupPageTestCase.java:54)
+

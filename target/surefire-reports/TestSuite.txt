@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.826 s <<< FAILURE! - in TestSuite
+Testcases.signupPageTestCase.testcase  Time elapsed: 14.496 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="submit" data-qa="create-account" class="btn btn-default">...</button> is not clickable at point (359, 646). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20230921/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;xpc=WGt3iRdWdd&amp;p=https%3A//automationexercise.com" data-google-container-id="a!3" data-google-query-id="CMPZq-XYx4EDFVJUnQkdYt8I2w" data-load-complete="true"></iframe>
+  (Session info: chrome=117.0.5938.92)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51a5bca002d32c6b627fb6ddb87d53ac, clickElement {id=3B00DDB84FC8EE5F18E9911F6BC65E21_element_1856}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63333}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63333/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (51a5bca002d32c6b627fb6ddb87d53ac)] -> xpath: //button[contains(text(),'Create Account')]]
+Session ID: 51a5bca002d32c6b627fb6ddb87d53ac
+	at Testcases.signupPageTestCase.testcase(signupPageTestCase.java:81)
+
